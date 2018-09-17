@@ -1,4 +1,4 @@
-[![logo](https://www.privateinternetaccess.com/assets/PIALogo2x-09ca10950967bd3be87a5ef7730a69e07892d519cfc8f15228bec0a4f6102cc1.png)](https://www.privateinternetaccess.com/pages/network/dkrpia)
+[![logo](https://www.privateinternetaccess.com/assets/PIALogo2x-84413b002e788098871d6ecd79b23cc242b1eeb9864fc65a42d3cce7915c287f.png)](https://www.privateinternetaccess.com/pages/network/dkrpia)
 
 # Privoxy via Private Internet Access OpenVPN
 An Alpine Linux container running Privoxy and OpenVPN via Private Internet Access
