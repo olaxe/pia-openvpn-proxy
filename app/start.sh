@@ -11,3 +11,5 @@ if [ -n "$ENFORCE_DNS" ]; then
   echo "nameserver $DNS1" > /etc/resolv.conf
   echo "nameserver $DNS2" >> /etc/resolv.conf
 fi
+
+runsvdir

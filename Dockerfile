@@ -7,6 +7,8 @@ RUN apk --update --no-cache add privoxy openvpn runit
 
 COPY app /app
 
+chmod +r /app/run.sh
+
 RUN find /app -name run | xargs chmod u+x
 
 ENV REGION="US East" \
@@ -14,4 +16,4 @@ ENV REGION="US East" \
     PASSWORD="" \
     LOCAL_NETWORK=192.168.1.0/24
 
-CMD ["runsvdir", "/app"]
+CMD ["start.sh", "/app"]
