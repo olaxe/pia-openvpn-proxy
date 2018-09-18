@@ -12,4 +12,4 @@ if [ -n "$ENFORCE_DNS" ]; then
   echo "nameserver $DNS2" >> /etc/resolv.conf
 fi
 
-runsvdir
+runsvdir /app
