@@ -7,7 +7,7 @@ RUN apk --update --no-cache add privoxy openvpn runit
 
 COPY app /app
 
-chmod +r /app/run.sh
+RUN chmod +x /app/run.sh
 
 RUN find /app -name run | xargs chmod u+x
 
