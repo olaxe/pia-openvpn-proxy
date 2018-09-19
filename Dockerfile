@@ -16,4 +16,4 @@ ENV REGION="US East" \
     PASSWORD="" \
     LOCAL_NETWORK=192.168.1.0/24
 
-CMD ["start.sh", "/app"]
+CMD ["/app/start.sh"]
