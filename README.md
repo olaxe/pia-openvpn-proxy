@@ -17,6 +17,10 @@ docker run -d \
 --name=vpn_proxy \
 --dns=209.222.18.218 --dns=209.222.18.222 \
 --restart=always \
+-e "KUBERNETES=yes" \
+-e "ENFORCE_DNS=yes" \
+-e "DNS1=209.222.18.218" \
+-e "DNS2=209.222.18.222" \
 -e "REGION=<region>" \
 -e "USERNAME=<pia_username>" \
 -e "PASSWORD=<pia_password>" \
