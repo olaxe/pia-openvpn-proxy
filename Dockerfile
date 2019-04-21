@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER Ignatius Teo <ignatius.teo@gmail.com>
+MAINTAINER Oleaxe <oleaxe@pm.me>
 
 EXPOSE 8080
 
